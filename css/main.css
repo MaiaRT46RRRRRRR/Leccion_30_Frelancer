@@ -1,3 +1,123 @@
 /*
  * Estilos de tu proyecto
  */
+
+ *{
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+ .container{
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width:970px; 
+ }
+ .navbar{
+ 	background-color: rgb(44, 62, 80);
+ 	color: white;
+ }
+.titulo{
+	float: left;
+}
+.titulo>a{
+	color: white;
+	text-decoration: none;
+}
+.navbar-nav>li{
+	text-decoration: none;
+	list-style: none;
+}
+.act-scroll>a{
+	color: white;
+	text-decoration: none;
+}
+header{
+    text-align: center;
+    background: #18BC9C;
+    color: #fff;
+}
+hr{
+	width: 600px;
+	text-align: center;
+}
+h1{
+	font-size: 4.75em;
+	text-transform: uppercase;
+}
+header .container {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.cont-1{
+	font-size: 1.75em;
+}
+
+.img-res{
+	width: 260px;
+	height: 260px;
+}
+
+
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row:after,
+.row:before{
+    content: " ";
+    display:table;
+}
+
+[class*="col"] {
+    position: relative;
+/*    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;*/
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width : 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%
+}
+.col-6{
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.63%;
+}
+.col-12{
+    width: 100%;
+}
