@@ -20,7 +20,7 @@
  	padding-left: 15px;
  	margin-left: auto;
  	margin-right: auto;
- 	width:970px; 
+ 	width:970px;
  }
  .navbar{
  	background-color: rgb(44, 62, 80);
@@ -45,18 +45,29 @@ header{
     text-align: center;
     background: #18BC9C;
     color: #fff;
+    height: 600px;
 }
 hr{
 	width: 600px;
 	text-align: center;
+	border-width: 3px;
 }
 h1{
 	font-size: 4.75em;
 	text-transform: uppercase;
 }
-header .container {
+h2{
+	font-size: 3.75em;
+	text-transform: uppercase;
+}
+p{
+	font-size: 1.2em;	
+}
+header .container{
     padding-top: 120px;
     padding-bottom: 80px;
+    background-color: #18BC9C;
+    height: auto;
 }
 .cont-1{
 	font-size: 1.75em;
@@ -66,13 +77,27 @@ header .container {
 	width: 260px;
 	height: 260px;
 }
+.text-center{
+	text-align: center;
+}
+.verde{
+	 background: #18BC9C;
+	 color: white;
+	 padding-bottom:80px ;
+	 padding-top:100px; 
+}
+.blanco{
+	background:white;
+    padding-bottom:80px ;
+	padding-top:100px;
+	height: 800px; 
+}
 
 
-
-.row{
+/*.row{
 	margin-left: -15px;
 	margin-right: -15px;
-}
+}*/
 .row:after,
 .row:before{
     content: " ";
@@ -81,6 +106,7 @@ header .container {
 
 [class*="col"] {
     position: relative;
+    float: left;
 /*    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;*/
